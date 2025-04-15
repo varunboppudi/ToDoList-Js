@@ -17,6 +17,8 @@ function addTask(){
     saveData();
 }
 
+// Add event listener to the input box to trigger addTask on Enter key
+
 listContainer.addEventListener("click", function(e){
     if(e.target.tagName === "LI"){
         e.target.classList.toggle("checked");

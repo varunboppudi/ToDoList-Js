@@ -255,7 +255,6 @@ ul li:active {
         font-size: 1rem;
     }
 }
-
 @media (max-width: 600px) {
     .container {
         align-items: flex-start;
